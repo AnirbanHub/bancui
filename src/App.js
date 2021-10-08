@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundColor: 'teal'}}>
+    <header style={{textAlign: 'center', marginTop: 50}}>
+      <b>Welcome to BANC</b>
+    </header>
+    <div style={{textAlign: 'center', margin: 100}}>
+          Main Content for BANC website
+    </div>
+    <footer style={{textAlign: 'center', marginTop: 200}}>Diganto Links</footer>
     </div>
   );
 }
